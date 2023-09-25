@@ -1,0 +1,134 @@
+@use "../abstracts/functions" as f;
+
+/**************************/
+/* PRODUCT CARD */
+/**************************/
+
+.c-product-card {
+    display: grid;
+    max-width: f.rem(375px);
+    background-color: var(--color-dark-desaturatedblue);
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+/**************************/
+/* PRODUCT IMAGE */
+/**************************/
+
+.c-product-card__img-half {
+    background-color: var(--color-soft-violet);
+}
+
+.c-product-card__img {
+    mix-blend-mode: multiply;
+    opacity: 0.7;
+}
+
+/**************************/
+/* PRODUCT TEXT */
+/**************************/
+
+/* Product title */
+.c-product-card__text-half {
+    margin-top: 1em;
+    text-align: center;
+    padding: 1em;
+}
+
+.c-product-card__title {
+    font-size: f.rem(28px);
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.c-product-card__title span {
+    color: var(--color-soft-violet);
+}
+
+/* Product description */
+.c-product-card__desc {
+    font-size: f.rem(15px);
+    margin-top: 1em;
+    color: var(--color-transparent-white1);
+}
+
+/* Product data */
+.c-product-card__data {
+    margin-top: 2em;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2ch;
+}
+
+/* Product data items*/
+.c-product-card__data li {
+    font-size: f.rem(24px);
+    font-weight: 700;
+    list-style: none;
+    color: var(--color-white);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.c-product-card__data li span {
+    font-size: f.rem(10px);
+    font-weight: 400;
+    font-family: 'Lexend Deca', 'sans-serif';
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--color-transparent-white2);
+}
+
+@media (width >= 44em) {
+    .c-product-card {
+        max-width: f.rem(1100px);
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .c-product-card__img-half {
+        grid-column-start: 2;
+    }
+
+    /*From Discord: "For making the image fill the space you may need to add height: 100% to it and use object-fill: cover to make it take up all the space necessary. 
+    It's one of the only times that it is acceptable to use the height property"*/
+    .c-product-card__img {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .c-product-card__text-half {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+}
+
+@media (width >= 50em) {
+    .c-product-card__data {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .c-product-card__title {
+        padding: 1em;
+        font-size: f.rem(36px);
+        text-align: left;
+    }
+
+    .c-product-card__desc {
+        margin-top: 0;
+        text-align: left;
+        padding: 0 8em 0 2em;
+    }
+
+    .c-product-card__data {
+        margin-top: 4em;
+        margin-left: 2em;
+        padding-right: 10em;
+    
+        justify-content: space-between;
+    }
+}

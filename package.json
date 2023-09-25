@@ -1,0 +1,15 @@
+{
+  "name": "stats-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Cho Sung Jin",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3"
+  }
+}

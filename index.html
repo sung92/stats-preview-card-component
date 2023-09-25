@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="main.scss">
+
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 12px; text-align: center; margin-top: 3em; color: var(--color-white)}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <!-- Product Card -->
+    <div class="c-product-card">
+
+      <!-- Image half of the card-->
+      <picture class="c-product-card__img-half">
+        <!-- largest image -->
+        <source src="./images/image-header-desktop.jpg" media="(min-width: 44em)">
+        <!-- smallest image (default) -->
+        <img class="c-product-card__img" src="./images/image-header-mobile.jpg" alt="women working">
+      </picture>
+
+      <!-- Text half of the card-->
+      <div class="c-product-card__text-half">
+        <!-- Product title -->
+        <h1 class="c-product-card__title">Get <span>insights</span> that help your business grow.</h1>
+        <!-- Product description -->
+        <p class="c-product-card__desc">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+        <!-- Product data -->
+        <ul class="c-product-card__data">
+          <!-- Product data items -->
+          <li>10k+ <span>companies</span></li>
+          <li>314 <span>templates</span></li>
+          <li>12M+ <span>queries</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sung Jin Cho</a>.
+  </footer>
+</body>
+</html>
