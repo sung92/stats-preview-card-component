@@ -41,7 +41,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-component-q9nOLbtnbf](https://www.frontendmentor.io/solutions/order-summary-component-q9nOLbtnbf)
+- Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-card-component-0OeQNQJnto](https://www.frontendmentor.io/solutions/stats-preview-card-component-0OeQNQJnto)
 - Live Site URL: [https://stats-preview-card-component-sung.netlify.app/](https://stats-preview-card-component-sung.netlify.app/)
 
 ## My process
