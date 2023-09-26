@@ -55,6 +55,7 @@ Users should be able to:
 
 - To use "em" for vertical margins on elements and "rem" for paddings and media-queries (the justification for this: https://discord.com/channels/824970620529279006/1155795643391025152/1155823071723274250)
 - To use mix-blend-mode CSS property together with a background-color on the image.
+- Accesibility for the list items using *role="listitem"* to the "li" elements and *role="unorderedlist"* to the "ul" element.
 
 ### Continued development
 
