@@ -188,6 +188,7 @@ body {
   }
 
   .c-product-card__data {
+    text-align: left;
     justify-content: left;
     gap: 7ch;
     margin-top: 4em;
