@@ -58,13 +58,13 @@ Users should be able to:
 
 ### Continued development
 
-My main focus is still to create a well-structured HTML first. Also to keep implementing what I've learned for this project. Next step, I would like to use a better <button> and <a> classnames for styling the base first (.btn, .link), and then use a modifier for each specific button (btn--primary, btn--secondary, etc &&  link--primary, link--secondary, etc).
+My main focus is still to create a well-structured HTML first. Also to keep implementing what I've learned for this project. Next step, I would like to use a better "button" and "a" classnames for styling the base first (.btn, .link), and then use a modifier for each specific button (btn--primary, btn--secondary, etc &&  link--primary, link--secondary, etc).
 Additionally, I would like to take into account what I've learned about "rem" and "em" for the next challenge.
 
 ### Useful resources
 
 - [BEM](https://getbem.com/introduction/)
-- [Tweaking Text Level Styles](https://adrianroselli.com/2017/12/tweaking-text-level-styles.html) - For accesibility: <s>, <del>, <mark>, <ins>.
+- [Tweaking Text Level Styles](https://adrianroselli.com/2017/12/tweaking-text-level-styles.html) - For accesibility: "s, del, mark, ins" elements.
 
 ## Author
 
