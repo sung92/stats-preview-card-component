@@ -16,8 +16,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 One card component.
@@ -53,8 +51,6 @@ Users should be able to:
 - CSS Grid and Flexbox
 - [CSS reset](https://github.com/mayank99/reset.css) - To baseline cross-browser styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 - To use "em" for vertical margins on elements and "rem" for paddings and media-queries (the justification for this: https://discord.com/channels/824970620529279006/1155795643391025152/1155823071723274250)
@@ -69,8 +65,6 @@ Additionally, I would like to take into account what I've learned about "rem" an
 
 - [BEM](https://getbem.com/introduction/)
 - [Tweaking Text Level Styles](https://adrianroselli.com/2017/12/tweaking-text-level-styles.html) - For accesibility: <s>, <del>, <mark>, <ins>.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
