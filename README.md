@@ -73,5 +73,5 @@ Additionally, I would like to take into account what I've learned about "rem" an
 
 ## Acknowledgments
 
-I want to thank Grace Snow who helped me on this project and HTML+CSS in general 🙌
-Also appreciate the help in regards to accesibility on list items, Alex Marshall 🙏
+- I want to thank Grace Snow who helped me on this project and HTML+CSS in general 🙌
+- Also appreciate the help in regards to accesibility on list items, Alex Marshall 🙏
